@@ -1,6 +1,6 @@
 # elinks.vim
 
-This Vim plugin integrates Vim with Elinks (the text web browser).
+This Vim plugin integrates Vim with Elinks (the text-mode web browser).
 
 ## Synopsis
 
