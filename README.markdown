@@ -36,6 +36,7 @@ tools make this data clunky to export and hard to impossible to use with Unix
 tools. Vim + Elinks + plain text files are a good alternative & more in tune
 with the Unix philosophy.
 
+**Long live plain text.**
 
 ## Install
 
