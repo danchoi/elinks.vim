@@ -4,15 +4,17 @@ This Vim plugin integrates Vim with Elinks (the text-mode web browser).
 
 ## Synopsis
 
-    ,o
-    ,O
+    <leader>o
+    <leader>O
     :[n]EMarks
     :[n]EHist
 
+    <leader> is your mapleader. Probably , or \
+
 Longer version:
 
-    ,o opens the hyperlink under or after the cursor in Elinks
-    ,O opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
+    <leader>o opens the hyperlink under or after the cursor in Elinks
+    <leader>O opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
     :[n]EMarks prints the last n Elinks bookmarks into your Vim buffer (default n is 1)
     :[n]EHist prints the last n items from Elinks' history into your Vim buffer (default n is 1)
 
