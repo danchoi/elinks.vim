@@ -6,7 +6,7 @@ This Vim plugin integrates Vim with Elinks (the text web browser).
 
     ,o
     ,O
-    :[count]EMarks
+    :[n]EMarks
 
 Longer version:
 
