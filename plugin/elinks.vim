@@ -11,7 +11,7 @@ func! s:open_href(new_tab)
     let command = "elinks -remote 'openURL(\"".shellescape(href)."\")'"
   endif
   call system(command)
-  echom 'Opened in elinks: '.href
+  echom 'Opened link in elinks'
 endfunc
 
 func! s:print_latest_bookmarks(count)
