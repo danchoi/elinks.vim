@@ -6,9 +6,9 @@ func! s:open_href(new_tab)
   let line = search(pattern, 'cw')
   let href = matchstr(getline(line('.')), pattern)
   if a:new_tab
-    let command = "elinks -remote 'openURL(\"".shellescape(href)."\", new-tab)'"
+    let command = "elinks -remote 'openURL(\"".href."\", new-tab)'"
   else
-    let command = "elinks -remote 'openURL(\"".shellescape(href)."\")'"
+    let command = "elinks -remote 'openURL(\"".href."\")'"
   endif
   call system(command)
   echom 'Opened link in elinks'
