@@ -48,6 +48,6 @@ Quick install:
 
 ## Customize
 
-If you want to change the keybindings for `<leader>o` and `<leader>O`, just edit `nnoremap`
+If you want to change the keybindings for `<leader>o` and `<leader>O`, just edit the `nnoremap`
 lines at the bottom of the plugin file.
 
