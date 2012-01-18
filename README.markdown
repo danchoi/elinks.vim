@@ -47,6 +47,6 @@ Quick install:
 
 ## Customize
 
-If you want to change the keybindings for `,o` and `,O`, just edit `noremap`
+If you want to change the keybindings for `<leader>o` and `<leader>O`, just edit `noremap`
 lines at the bottom of the plugin file.
 
