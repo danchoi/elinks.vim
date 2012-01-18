@@ -29,7 +29,8 @@ applications.
 
 Web bookmarks are important data. But most web browsers and bookmark management
 tools make this data clunky to export and hard to impossible to use with Unix
-tools. Vim + elinks + plain text files are a good Unix-style alternative.
+tools. Vim + elinks + plain text files are a good alternative & more in tune
+with the Unix philosophy.
 
 
 ## Install
