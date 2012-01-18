@@ -10,9 +10,9 @@ This Vim plugin integrates Vim with Elinks (the text web browser).
 
 Longer version:
 
-    `,o` opens the hyperlink under or after the cursor in Elinks
-    `,O` opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
-    :[n]EMarks prints the last n Elinks bookmarks in your Vim buffer (default n is 1)
+    ,o opens the hyperlink under or after the cursor in Elinks
+    ,O opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
+    :[n]EMarks prints the last n Elinks bookmarks into your Vim buffer (default n is 1)
 
 To use this plugin, you must have Elinks already running in another Terminal
 window or Tmux/Screen pane.  The plugin talks to the running instance of
