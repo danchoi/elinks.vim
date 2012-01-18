@@ -10,8 +10,8 @@ This Vim plugin integrates Vim with ELinks (the text-mode web browser).
     <C-j>
     <C-k>
 
-    :[n]EMarks
-    :[n]EHist
+    :[n]ELMarks
+    :[n]ELHist
 
     <leader> is your mapleader. Probably , or \
 
@@ -23,8 +23,8 @@ Longer version:
     <C-j> moves the cursor to the next hyperlink in the Vim buffer
     <C-k> moves the cursor to the previous hyperlink
 
-    :[n]EMarks prints the last n ELinks bookmarks into the Vim buffer (default n is 1)
-    :[n]EHist prints the last n items from ELinks' history into the Vim buffer (default n is 1)
+    :[n]ELMarks prints the last n ELinks bookmarks into the Vim buffer (default n is 1)
+    :[n]ELHist prints the last n items from ELinks' history into the Vim buffer (default n is 1)
 
 To use this plugin, you must have ELinks already running in another Terminal
 window or Tmux/Screen pane.  The plugin talks to the running instance of

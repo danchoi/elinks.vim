@@ -37,6 +37,6 @@ nnoremap <leader>o :call <SID>open_href(0)<CR>
 nnoremap <leader>O :call <SID>open_href(1)<CR>
 nnoremap <C-j> :call <SID>jump_to_href(0)<CR>
 nnoremap <C-k> :call <SID>jump_to_href(1)<CR>
-command! -count=1 EMarks call s:print_latest_bookmarks(<count>)
-command! -count=1 EHist call s:print_latest_history(<count>)
+command! -count=1 ELMarks call s:print_latest_bookmarks(<count>)
+command! -count=1 ELHist call s:print_latest_history(<count>)
 
