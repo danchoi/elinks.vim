@@ -20,7 +20,14 @@ func! s:print_latest_bookmarks(count)
   put=res
 endfunc
 
+func! s:print_latest_history(count)
+  let command = "tail -".a:count." ~/.elinks/globhist |  awk -F '\\t' '{print $1 \"\\n\" $2 \"\\n\"}' "
+  let res = system(command)
+  put=res
+endfunc
+
 nnoremap <leader>o :call <SID>open_href(0)<CR>
 nnoremap <leader>O :call <SID>open_href(1)<CR>
 command! -count=1 EMarks call s:print_latest_bookmarks(<count>)
+command! -count=1 EHist call s:print_latest_history(<count>)
 
