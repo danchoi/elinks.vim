@@ -1,4 +1,4 @@
-# elinks-vim
+# elinks.vim
 
 This Vim plugin integrates Vim with Elinks (the text web browser).
 
@@ -7,6 +7,8 @@ This Vim plugin integrates Vim with Elinks (the text web browser).
     ,o
     ,O
     :[count]EMarks
+
+Longer version:
 
     `,o` opens the hyperlink under or after the cursor in Elinks
     `,O` opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
