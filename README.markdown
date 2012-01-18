@@ -1,6 +1,6 @@
 # elinks.vim
 
-This Vim plugin integrates Vim with Elinks (the text-mode web browser).
+This Vim plugin integrates Vim with ELinks (the text-mode web browser).
 
 ## Synopsis
 
@@ -17,31 +17,31 @@ This Vim plugin integrates Vim with Elinks (the text-mode web browser).
 
 Longer version:
 
-    <leader>o opens the hyperlink under or after the cursor in Elinks
-    <leader>O opens the hyperlink under or after the cursor in a new Elinks tab
+    <leader>o opens the hyperlink under or after the cursor in ELinks
+    <leader>O opens the hyperlink under or after the cursor in a new ELinks tab
 
     <C-j> moves the cursor to the next hyperlink in the Vim buffer
     <C-k> moves the cursor to the previous hyperlink
 
-    :[n]EMarks prints the last n Elinks bookmarks into the Vim buffer (default n is 1)
-    :[n]EHist prints the last n items from Elinks' history into the Vim buffer (default n is 1)
+    :[n]EMarks prints the last n ELinks bookmarks into the Vim buffer (default n is 1)
+    :[n]EHist prints the last n items from ELinks' history into the Vim buffer (default n is 1)
 
-To use this plugin, you must have Elinks already running in another Terminal
+To use this plugin, you must have ELinks already running in another Terminal
 window or Tmux/Screen pane.  The plugin talks to the running instance of
-Elinks.
+ELinks.
 
 
 ## Motivation
 
 I like to keep my notes and web URLs in plain text files, edited in Vim.  But I
 grew tired to copying and pasting URLs from Firefox to Vim and vice versa.  I
-already enjoyed using Elinks to read webpages with less distraction.  It was
+already enjoyed using ELinks to read webpages with less distraction.  It was
 natural to try to come up with a more integrated workflow between these two
 applications. 
 
 Web bookmarks are important data. But most web browsers and bookmark management
 tools make this data clunky to export and hard to impossible to use with Unix
-tools. Vim + Elinks + plain text files are a good alternative & more in tune
+tools. Vim + ELinks + plain text files are a good alternative & more in tune
 with the Unix philosophy.
 
 **Long live plain text!**
