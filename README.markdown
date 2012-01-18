@@ -6,6 +6,10 @@ This Vim plugin integrates Vim with Elinks (the text-mode web browser).
 
     <leader>o
     <leader>O
+
+    <C-j>
+    <C-k>
+
     :[n]EMarks
     :[n]EHist
 
@@ -14,9 +18,13 @@ This Vim plugin integrates Vim with Elinks (the text-mode web browser).
 Longer version:
 
     <leader>o opens the hyperlink under or after the cursor in Elinks
-    <leader>O opens the hyperlink under or after the cursor in Elinks in a new Elinks tab
-    :[n]EMarks prints the last n Elinks bookmarks into your Vim buffer (default n is 1)
-    :[n]EHist prints the last n items from Elinks' history into your Vim buffer (default n is 1)
+    <leader>O opens the hyperlink under or after the cursor in a new Elinks tab
+
+    <C-j> moves the cursor to the next hyperlink in the Vim buffer
+    <C-k> moves the cursor to the previous hyperlink
+
+    :[n]EMarks prints the last n Elinks bookmarks into the Vim buffer (default n is 1)
+    :[n]EHist prints the last n items from Elinks' history into the Vim buffer (default n is 1)
 
 To use this plugin, you must have Elinks already running in another Terminal
 window or Tmux/Screen pane.  The plugin talks to the running instance of
